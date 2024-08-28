@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="nav">
+        <div class="nav-f">
+        <img src="https://s.udemycdn.com/meta/default-meta-image-v2.png" alt="">
+        <h3 style="margin-right: 20px; font-weight: lighter;" id="sp">Categories</h3>
+        <div class="search"><i class="fa-solid fa-magnifying-glass"></i><input type="text" placeholder="Search for anything"></div>
+    </div>
+        <div class="nav-in">
+        <ul>
+            <li>Plans & Pricing</li>
+            <li>Udemy Business</li>
+            <li>Teach on Udemy</li>
+            <li><i class="fa-solid fa-cart-shopping"></i></li>
+        </ul>
+        <div class="but">
+            <button>Log in</button>
+            <button style="background-color: black; color: white;">Sign up</button>
+            <button><i class="fa-solid fa-globe"></i></button>
+        </div>
+    </div>
+    </div>
+
+    <div class="two">
+        <img src="https://img-c.udemycdn.com/notices/web_carousel_slide/image/4efd3b84-91c8-4a9f-b4c7-4ba1d07fa425.png" alt="">
+        <div class="cont">
+            <h1 style="font-weight: bolder;margin-bottom: 10px;font-size: 30px;">Learn more & save</h1>
+            <p style="text-align: justify;font-size:large;padding-top: 10px;font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">With courses from $299 you can learn skills for your workweek & your weekends. Sale ends December 19</p>
+        </div>
+        <div class="two-last">
+            <h1>All the skills you need in one place</h1>
+            <h3 style="font-weight:lighter; font-size: medium;color: rgb(135, 127, 127);margin-top: 10px;">From critical skills to technical topics, Udemy supports your professional development</h3>
+            <div class="ll">
+               <div class="box b1">Web Development</div>
+               <div class="box b2">IT Certifications</div>
+               <div class="box b3">Leadership</div>
+               <div class="box b4">Data Science</div>
+               <div class="box b5">Commenication</div>
+               <div class="box b6" >Business Analytics</div>
+            </div>
+        </div>
+    </div>
+    <div class="course" style="background-color: rgba(255, 255, 255, 0.721);">
+        <div class="coss c1" style="background-color: black;"><h3>Web Development</h3><h4 style="color: white;">21M+ learners</h4></div>
+        <div class="coss c2"><h3>Python Problem</h3><h4>16M+ learners</h4></div>
+        <div class="coss c3"><h3>Java & DSA</h3><h4>7M+ learners</h4></div>
+        <div class="coss c4"><h3>RDBMS</h3><h4>4M+ learners</h4></div>
+        <div class="coss c5"><h3>React JS</h3><h4>15.5M+ learners</h4></div>
+        <div class="coss c6"><h3>MongoDP</h3><h4>8M+ learners</h4></div>
+        <div class="coss c7"><h3>JavaScript</h3><h4>6M+ learners</h4></div>
+        <div class="coss c8"><h3>Network</h3><h4>3M+ learners</h4></div>
+    </div>
+    <style>
+        .sec{
+            display: flex;
+             justify-content: center;
+             align-items: center;
+            flex-wrap: wrap;
+            gap: 30px;
+            margin-top: 40px;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+           
+        }
+        .cls{
+            width: 300px;
+            height: 280px;
+           
+           transition: 1.2s;
+          color: white;
+          text-align: center;
+      
+        }
+        .cls:hover{
+            transform: scale(1.1);
+        }
+        .cls h3{
+            color: black;
+        }
+        .cls span{
+            color: yellow;
+        }
+        .cls img{
+            width: 100%;
+            height: 200px;
+        }
+        .cls h4{
+            color:green;
+        }
+        .cls del{
+            color: red;
+        }
+    </style>
+    <div class="sec">
+        <div class="cls cl1">
+            <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/is_web_development_good_career.jpg" alt="">
+            <h3>Web Development</h3>
+            <h3>4.7  <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star-half checked"></span>
+            </h4>
+            <h4>$399 <del>3999</del></h4>
+        </div>
+        <div class="cls cl2">
+            <img src="https://www.unite.ai/wp-content/uploads/2022/04/AI-Python-Libraries.png" alt="">
+            <h3>Python</h3>
+            <h3>4.7  <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star-half checked"></span></h4>
+            <h4>$699 <del>999</del></h4>
+        </div>
+        <div class="cls cl3">
+            <img src="https://user-images.githubusercontent.com/102843159/211679770-ba6259bb-e87b-4932-b59c-f283d2628d7b.jpg" alt="">
+            <h3>Java DSA</h3>
+            <h3>4.7  <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star-half checked"></span></h4>
+            <h4>$999 <del>4999</del></h4>
+        </div>
+        <div class="cls cl4">
+            <img src="https://miro.medium.com/v2/resize:fit:967/1*kCj2gsTkETW9uh8cJndpdg.png" alt="">
+            <h3>RDBMS</h3>
+            <h3>4.7  <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star-half checked"></span></h4>
+            <h4>$999 <del>2999</del></h4>
+        </div>
+        <div class="cls cl5">
+            <img src="https://knackforge.com/wp-content/uploads/2022/11/Benefits-of-ReactJS.jpg" alt="">
+            <h3>React JS</h3>
+            <h3>4.7  <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star-half checked"></span></h4>
+            <h4>$1499 <del>5999</del></h4>
+        </div>
+        <div class="cls cl6">
+            <img src="https://adsql.in/wp-content/uploads/2021/09/mongodb.jpg" alt="">
+            <h3>MongoDP</h3>
+            <h3>4.7  <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star-half checked"></span></h4>
+            <h4>$1999 <del>4999</del></h4>
+        </div>
+        <div class="cls cl7">
+            <img src="https://files.ably.io/ghost/prod/2023/12/choosing-the-best-javascript-frameworks-for-your-next-project.png" alt="">
+            <h3>JavaScript</h3>
+            <h3>4.7  <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star-half checked"></span></h4>
+            <h4>$999 <del>2999</del></h4>
+        </div>
+        <div class="cls cl8">
+            <img src="https://img.lovepik.com/photo/48008/6386.jpg_wh860.jpg" alt="">
+            <h3>Network</h3>
+            <h3>4.7  <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star-half checked"></span></h4>
+            <h4>$499 <del>999</del></h4>
+        </div>
+    </div>
+    <style>
+        .report{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        }
+        .report img{
+            width: 70%;
+            vertical-align: top;
+            transition: 1.2s;
+           
+        }
+        .report img:hover{
+            transform: scale(1.1);
+        }
+        .re-in{
+            width: 300px;
+            height: 400px;
+            transition: 1.2s;
+            font-size: larger
+        }
+        .re-in:hover{
+            transform: scale(1.1);
+        }
+        .re-but{
+            width: 200px;
+            height: 40px;
+            border: 1px solid black;
+            font-size: 22px;
+            font-weight: bolder;
+            margin-top: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+
+        }
+        
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+    </style>
+    <div class="report">
+        <div class="re-in">
+            <h2 style="margin-bottom: 23px; font-size: 33px; margin-top: 60px;">Top trends for the future of work</h2>
+            <p style="text-align: justify; font-size: 25px;">GenAI and leadership are at the core of today's kills-based economy. Get the 2024 Global Learning & Skills Trends Report to learn more</p>
+            <div class="re-but">Get the repport <i class="fa fa-arrow-right" aria-hidden="true"></i>
+            </div>
+        </div>
+        <img src="https://cms-images.udemycdn.com/96883mtakkm8/1NkfOmpshG42EUGu69VrSS/d3bc0ab5cf4c593d9dfceb2817fc935f/image_revision_12024_Angled_trend_reports.png" alt="">
+    </div>
+    <style>
+        .sub-rent li{
+            list-style: none;
+        }
+        .sub-rent ul{
+            margin-left: 10px;
+            margin-top: 10px;
+        }
+        .subc{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 50px;
+            font-size: larger;
+            
+           
+        }
+        .su{
+            width: 400px;
+            height: 400px;
+            border: 1px solid black;
+            background-color: white;
+            color: black;
+            border-radius: 20px;
+            margin-top: 40px;
+            border-top: 10px solid rgb(175, 6, 248);
+        }
+       .sub-content{
+        margin-top: 50px;
+        background-color: white;
+        color: black;
+        font-size: larger;
+        font-weight: bolder;
+        margin-left: 50px;
+       }
+       .sub-user{
+        padding: 10px;
+        background-color: rgba(136, 123, 123, 0.086);
+        border-radius: 10px 10px 0px 0px;
+        font-weight: lighter;
+        
+       }
+       .sub-user h5{
+        font-size: 14px;
+        font-weight: 5;
+       }
+       .sub-user h4{
+        font-size: 14px;
+        margin-left: 10px;
+        margin-top: 10px;
+        font-weight: 10;
+       }
+       .sub-rent{
+        margin-top: 14px;
+        margin-left: 20px;
+        font-weight: 6;
+        font-size: 16px;
+       }
+       .su{
+        transition: 1.2s;
+       }
+       .su:hover{
+        transform: scale(1.1);
+       }
+      .sub-rent h5{
+        margin-top: 2px;
+        font-size: 14px;
+        font-weight: 5;
+      }
+      .sub-scr{
+        width: 350px;
+        height: 50px;
+        margin-top: 16px;
+        background-color: black;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left:6px;
+      }
+    </style>
+    <div class="sub-content">
+        
+        <h1>Accelerate growth - for you or your organization</h1>
+        <h3 style="margin-top: 10px; color: rgba(112, 109, 109, 0.474);">Reach goals faster with one of our plans or programs. Try one free today or contact sales to learn more</h3>
+    </div>
+    <div class="subc">
+        
+        <div class="su s1">
+            <div class="sub bor"></div>
+            <div class="sub-user">
+                <h2>Personal Plan</h2>
+                <h5>For you</h5>
+                <h4><i class="fa-solid fa-user"></i>  Individual</h4>
+            </div>
+            <div class="sub-rent">
+                <h3>Starting at $850 per month</h3>
+                <h5>Billed monthly or annually. cancel anytime.</h5>
+                <div class="sub-scr">
+                    <h3>Start subscription  <i class="fa-solid fa-arrow-right"></i></h3>
+                </div>
+                <ul>
+                    <li>&#9989;Access to 11,000+ top courses</li>
+                    <li>&#9989;Certification prep</li>
+                    <li>&#9989;Goal-focused recommendations</li>
+                    <li>&#9989;AI-powered coading exercises</li>
+                </ul>
+            </div>
+        </div>
+        <div class="su s2">
+            <div class="sub bor"></div>
+            <div class="sub-user">
+                <h2>Team Plan</h2>
+                <h5>For your team</h5>
+                <h4><i class="fa-solid fa-user-plus"></i>  Individual</h4>
+            </div>
+            <div class="sub-rent">
+                <h3>Starting at $1,167 per month</h3>
+                <h5>Billed annually. cancel anytime.</h5>
+                <div class="sub-scr">
+                    <h3>Start subscription  <i class="fa-solid fa-arrow-right"></i></h3>
+                </div>
+                <ul>
+                    <li>&#9989;Access to 16,000+ top courses</li>
+                    <li>&#9989;Certification prep</li>
+                    <li>&#9989;Goal-focused recommendations</li>
+                    <li>&#9989;AI-powered coading exercises</li>
+                    <li>&#9989;Analytics and adoption reports</li>
+                    
+                </ul>
+            </div>
+        </div>
+        <div class="su s3">
+            <div class="sub bor"></div>
+            <div class="sub-user">
+                <h2>Enterprise Plan</h2>
+                <h5>For you whole organization</h5>
+                <h4><i class="fa-solid fa-user-plus"></i>  More than 20 people</h4>
+            </div>
+            <div class="sub-rent">
+                <h3>Contact sales for pricing</h3>
+                <h5>Your wish</h5>
+                <div class="sub-scr">
+                    <h3>Request a demo  <i class="fa-solid fa-arrow-right"></i></h3>
+                </div>
+                <ul>
+                    <li>&#9989;Access to 25,000+ top courses</li>
+                    <li>&#9989;Certification prep</li>
+                    <li>&#9989;Goal-focused recommendations</li>
+                    <li>&#9989;AI-powered coading exercises</li>
+                    <li>&#9989;Advance analytics and insights</li>
+                    <li>&#9989;Customizable content</li>
+                  
+                </ul>
+            </div>
+        </div>
+     </div>
+     <style>
+        .company{
+            width: 100%;
+            height: 250px;
+            margin-top: 70px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+        }
+        .company h1{
+          margin-left: 40px;
+            font-size: 16;
+            font-weight: 1;
+            color: rgb(93, 92, 92);
+        }
+        .company-img{
+            display: flex;
+            justify-content: space-around;
+           margin-top: 70px;
+            align-items: center;
+
+        }
+     </style>
+        <div class="company">
+            <h1>Trusted by over companies and millions of learners around the worls</h1>
+            <div class="company-img">
+                <img src="https://cms-images.udemycdn.com/content/tqevknj7om/svg/volkswagen_logo.svg?position=c&quality=80&x.app=portals" alt="">
+                <img src="https://cms-images.udemycdn.com/content/2gevcc0kxt/svg/samsung_logo.svg?position=c&quality=80&x.app=portals" alt="">
+                <img src="https://cms-images.udemycdn.com/content/mueb2ve09x/svg/cisco_logo.svg?position=c&quality=80&x.app=portals" alt="">
+                <img src="https://cms-images.udemycdn.com/content/ryaowrcjb2/svg/vimeo_logo_resized-2.svg?position=c&quality=80&x.app=portals" alt="">
+                <img src="https://cms-images.udemycdn.com/content/bthyo156te/svg/procter_gamble_logo.svg?position=c&quality=80&x.app=portals" alt="">
+                <img src="https://cms-images.udemycdn.com/content/luqe0d6mx2/svg/hewlett_packard_enterprise_logo.svg?position=c&quality=80&x.app=portals" alt="">
+                <img src="https://cms-images.udemycdn.com/content/siaewwmkch/svg/citi_logo.svg?position=c&quality=80&x.app=portals" alt="">
+                <img src="https://cms-images.udemycdn.com/content/swmv0okrlh/svg/ericsson_logo.svg?position=c&quality=80&x.app=portals" alt="">
+            </div>
+        </div>
+        <style>
+            .final{
+                background-color: rgb(27, 26, 26);
+                width: 100%;
+                height: 400px;
+                color: white;
+                
+            }
+            .fls-top{
+                display: flex;
+                justify-content: space-between;
+                font-size: larger;
+                padding: 30px;
+                box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+             
+            }
+            .two{
+                display: flex;
+               margin-right: 40px;
+            }
+        </style>
+        <div class="final">
+            <div class="fls-top">
+                <div class="one">
+                    <h3>Top Companies choose Udemy Business to build in-demand career skills.</h3>
+
+                </div>
+                <div class="two">
+                    <img src="https://s.udemycdn.com/partner-logos/v4/nasdaq-light.svg" alt="">
+                    <img src="https://s.udemycdn.com/partner-logos/v4/volkswagen-light.svg" alt="">
+                    <img src="https://s.udemycdn.com/partner-logos/v4/netapp-light.svg" alt="">
+                    <img src="https://s.udemycdn.com/partner-logos/v4/eventbrite-light.svg" alt="">
+                </div>
+            </div>
+            <style>
+                .f-bot{
+                    display: flex;
+                    gap: 30px;
+                    margin-top: 40px;
+                    align-items: center;
+                    justify-content: space-around;
+                }
+                .f-bot li{
+                    list-style: none;
+                    height: 30px;
+                    font-size: large;
+                }
+            </style>
+            <div class="f-bot">
+                <div class="b01">
+                    <li>Udemy Business</li>
+                    <li>Teach on Udemy</li>
+                    <li>Get the app</li>
+                    <li>About Us</li>
+                    <li>Contact us</li>
+                </div>
+                <div class="b2">
+                    <li>Careers</li>
+                    <li>Blog</li>
+                    <li>Help and Support</li>
+                    <li>Affiliate</li>
+                    <li>Investors</li>
+                </div>
+                <div class="b3">
+                    <li>Terms</li>
+                    <li>Privacy policy</li>
+                    <li>Cookie settings</li>
+                    <li>Sitemap</li>
+                    <li>Accessibility statement</li>
+                </div>
+                <div class="f-but">
+                    <h2><i class="fa-solid fa-globe"></i> English</h2>
+                </div>
+            </div>
+            <style>
+                .f-but{
+                    border: 2px solid white;
+                    padding: 10px;
+                }
+            </style>
+            <div class="sk">
+                <div> <img src="https://access.tufts.edu/sites/default/files/styles/hero_image_xl/public/2021-09/Screen%20Shot%202021-09-10%20at%2012.20.59%20PM.png?itok=voatp863g" alt=""></div>
+                <div style=" margin-right: 50px;font-weight: bolder;margin-top: 30px;"><h6 style="font-size: 14px;">&copy;2024 santhoshk,Udemy.inc</h6></div>
+            </div>
+        </div>
+        <style>
+            .sk img{
+                width: 80px;
+                height: 50px;
+                margin-top: 15px;
+                margin-left: 40px;
+                
+            }
+            .sk{
+                display: flex;
+                justify-content: space-between;
+                margin-top: 30px;
+               
+            }
+        </style>
+</body>
+</html>
+<style>
+    
+    .c1{
+     
+      color: white; 
+    }
+
+     .coss h4{
+        color: rgb(179, 171, 171);
+        display: block;
+     }
+    .course{
+        display: flex;
+        justify-content: space-around;
+        gap: 10px;
+       margin-left: 110px;
+       margin-top: 50px;
+     
+        
+        
+    }
+    .coss{
+        background-color: rgb(242, 242, 242);
+        width: 135px;
+        height: 50px;
+        
+        text-align: center;
+        border-radius: 200px;
+        font-size: small;
+       font-weight: bolder;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       padding: 1px;
+      gap:5px;
+       flex-wrap: wrap;
+    }
+    html{
+        width: 100%;
+    }
+    .ll{
+        margin-top: 40px;
+        display: flex;
+        
+        
+       
+    }
+    .box{
+        border: 5px solid black;
+        width: 220px;
+        height: 30px;
+        display: flex;
+       
+        border: transparent;
+        border-bottom: rgb(176, 155, 155) 1px solid;
+    }
+  
+   .b1,.b2,.b3,.b4,.b5{
+    justify-content: center;
+    width: 130px;
+   }
+ 
+   .b1{
+    border-bottom: 2px solid black;
+    color: black;
+    font-weight: bolder;
+   }
+    .two-last{
+       margin-left: 150px;
+        margin-top: 50px;
+        
+    }
+    .two{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+       
+    }
+    .b6{
+        width: 735px;
+        border-bottom: rgb(176, 155, 155) 1px solid;
+    }
+    .cont{
+        display: block;
+        width: 400px;
+        align-items: center;
+      
+       padding: 20px;
+       height: 150px;
+       background-color: white;
+       color: black;
+       display: none;
+    
+      
+
+
+    }
+    input::placeholder{
+        font-size: medium;
+    }
+    #sp:hover{
+        color: rgb(66, 228, 90);
+    }
+    .but{
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        justify-content: space-around;
+        margin-left: 10px;
+        cursor: pointer;
+    }
+    .nav-f{
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        
+        
+    }
+    .search{
+        width: 590px;
+        border: 1px solid black;
+        border-radius: 40px;
+        height: 37px;
+        padding: 5px;
+    }
+    .search i{
+        color: black;
+        position: relative;
+        left: 10px;
+        top: 5px;
+        font-size: larger;
+        
+    }
+    .nav-in{
+        display: flex;
+        height: 60px;
+        
+       padding: 10px;
+        align-items: center;
+        cursor: pointer;
+
+    }
+    .search:hover{
+        transform: scale(1.05);
+        transition: 1.2s;
+    }
+    .search input{
+        width: 450px;
+        position: relative;
+        left: 30px;
+       
+        top: 4px;
+        border: transparent;
+        font-size: larger;
+    }
+    .search input:focus{
+       outline: none;
+    }
+    .nav-in ul{
+        display: flex;
+        list-style: none;
+        justify-content: space-between;
+        gap: 30px;
+        padding: 10px;
+       
+    }
+    .nav-in li:hover{
+        color: rgb(66, 228, 90);
+    }
+    *{
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+    }
+    .nav img{
+        width: 150px;
+        height: 60px;
+    }
+    .nav{
+        display: flex;
+        align-items: center;    
+       box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;;
+        font-size: 15px;
+        height: 70px;
+        background-color: white;
+        width: 100%;
+
+        
+    }
+    button{
+        width:70px;
+        height: 40px;
+        cursor: pointer;
+
+    }
+  
+</style>
