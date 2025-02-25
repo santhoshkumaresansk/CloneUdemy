@@ -4,6 +4,8 @@
 
 This project is a simple clone of the Udemy website, created using HTML and CSS. The purpose of this project is to practice front-end development skills and understand the basic layout and design principles of a modern e-learning platform.
 
+Live Project Link : https://santhoshkumaresansk.github.io/CloneUdemy/
+
 ## Features
 
 - **Responsive Design**: The layout adjusts to different screen sizes, making it usable on both desktops and mobile devices.
